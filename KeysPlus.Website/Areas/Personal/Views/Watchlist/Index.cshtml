@@ -1,0 +1,36 @@
+﻿
+@model WatchlistDisplayModel
+@{
+    ViewBag.Title = "Property Community | Watchlist";
+}
+<div id="mainPage" data-bind="visible:MainView">
+    <div class="block-header">
+        <h3>Watchlist</h3>
+    </div>
+    <br />
+    @{
+        Html.RenderPartial("_SearchInput");
+    }
+<br />
+<div>This is where you will build your watchlist</div>
+@section Modal{
+    @{
+        Html.RenderPartial("_SearchResultModal");
+    }
+}
+</div>
+@Html.AntiForgeryToken()
+<script src="~/Scripts/Personal/Watchlist.js"></script>
+<script>
+    $(document).ready(function () {
+
+        
+    })
+</script>
+
+
+
+
+
+
+

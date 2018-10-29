@@ -1,0 +1,6 @@
+c:\keys core\keysplus.website\scripts\tenants\tenantdetails.js
+c:\keys core\keysplus.website\areas\tenants\views\home\onboarding.cshtml
+c:\keys core\keysplus.website\areas\tenants\views\home\_tenantdetails.cshtml
+c:\keys core\keysplus.website\areas\tenants\controllers\homecontroller.cs
+c:\keys core\keysplus.data\tenant.cs
+c:\keys core\keysplus.service\models\tenantmodels.cs
